@@ -1,0 +1,34 @@
+
+
+
+
+.navbarbg {
+	background-color: #2f3e46;
+}
+
+
+.navbar-expand-lg .navbar-collapse {
+justify-content: center;
+flex-basis: auto;
+}
+
+.navbar .navbar-collapse {
+
+background: none;
+border-bottom: 1px solid #adb5bd;
+padding: 8px 16px 8px 16px;
+  text-align: center;
+}
+
+.navbar-toggler-icon {
+	color: white;
+}
+
+
+#name {
+   	text-align: center;
+    background-color: rgba(0, 0, 0, 0.25);
+    padding: 20px 5px;
+    margin: 5px;
+    
+}
