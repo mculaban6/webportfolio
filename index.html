@@ -68,11 +68,11 @@
   <div class="wrapper container-fluid">
   <h1 id="project-name">PROJECTS</h1>
   <div class="cols row">
-      <div class="col col-md-4 col-lg-4 col-sm-6 col-xs-12" ontouchstart="this.classList.toggle('hover');">
+      <div class="col col-md-4 col-lg-4 col-sm-6 " ontouchstart="this.classList.toggle('hover');">
         <div class="project-container">
           <div class="front" style="background-image: url(https://cdn.thewirecutter.com/wp-content/media/2021/05/mechanicalkeyboards-2048px-2x1-0036.jpeg?auto=webp&quality=75&crop=2:1&width=1024)">
             <div class="inner">
-              <p>HTML</p>
+              <p class="pa">HTML</p>
               
             </div>
           </div>
@@ -86,11 +86,11 @@
         </div>
       </div>
    
-      <div class="col col-md-4 col-lg-4 col-sm-6 col-xs-12" ontouchstart="this.classList.toggle('hover');">
+      <div class="col col-md-4 col-lg-4 col-sm-6 " ontouchstart="this.classList.toggle('hover');">
         <div class="project-container">
           <div class="front" style="background-image: url(https://media.wired.com/photos/60baa2dd8c4fdb463a5c62ee/master/w_1536,h_1152,c_limit/Gear-Wireless-Gaming-Mice-Kone-Pro-Air.jpg)">
             <div class="inner">
-              <p>JAVASCRIPT</p>
+              <p class="pa">JAVASCRIPT</p>
               
             </div>
           </div>
@@ -102,11 +102,11 @@
         </div>
       </div>
       
-      <div class="col col-md-4 col-lg-4 col-sm-6 col-xs-12" ontouchstart="this.classList.toggle('hover');">
+      <div class="col col-md-4 col-lg-4 col-sm-6" ontouchstart="this.classList.toggle('hover');">
         <div class="project-container">
           <div class="front" style="background-image: url(https://gimmickyard.com/wp-content/uploads/2022/07/11-Best-Intel-12th-Gen-Motherboard.png)">
             <div class="inner">
-              <p>CSS</p>
+              <p class="pa">CSS</p>
               
             </div>
           </div>
@@ -118,11 +118,11 @@
         </div>
       </div>
    
-      <div class="col col-md-4 col-lg-4 col-sm-6 col-xs-12" ontouchstart="this.classList.toggle('hover');">
+      <div class="col col-md-4 col-lg-4 col-sm-6" ontouchstart="this.classList.toggle('hover');">
         <div class="project-container">
           <div class="front" style="background-image: url(https://www.androidauthority.com/wp-content/uploads/2022/07/Wallpaper-Wednesday-2022-07-20.jpg)">
             <div class="inner">
-              <p>BOOTSTRAP</p>
+              <p class="pa">BOOTSTRAP</p>
               
             </div>
           </div>
@@ -145,30 +145,46 @@
 
   <!-- Contact Section -->
   <section id="contact-section">
-    <div class="container-fluid">
+    <div class="container">
       <div id="contact-container" class="container">
-        <h1 class="contact-title">Contact Me</h1>
+        <h1 class="contact-title col-75">Contact Me</h1>
         <!-- Contact Form -->
         <div id="contact-form" class="row">
-          <div class="col-lg-6 col-md-4 col">
+          <div class="col-lg-6 col-md-4 col-75">
             <form>
 
               <div class="row">
+                <div class="col-25">
                 <label for="contact-name" class="col-2">Name</label>
+                <div class="col-75">
                 <input type="text" name="contact-me" id="contact-name" class="col-12">
               </div>
+            </div>
+            </div>
               <div class="row">
+                <div class="col-25">
                 <label for="email" class="col-2">Email</label>
+                <div class="col-75">
                 <input type="email" name="contact-me" id="email" class="col-12">
               </div>
+                 </div>
+            </div>
               <div class="row">
+                <div class="col-25">
                 <label for="subject" class="col-2">Subject</label>
+                <div class="col-75">
                 <input type="text" name="contact-me" id="subject" class="col-12">
               </div>
+                 </div>
+            </div>
               <div class="row">
+                <div class="col-25">
                 <label for="message" class="col-2">Message</label>
+                <div class="col-75">
                 <textarea type="text" name="contact-me" id="message" rows="5" cols="100" class="col-12"></textarea>
               </div>
+                 </div>
+            </div>
               <div class="row">
                 <button type="submit" id="submit-contact" class="btn btn-light col-12">Submit</button>
               </div>

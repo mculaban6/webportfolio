@@ -5,7 +5,7 @@ html {
     -webkit-tap-highlight-color: transparent;
 }
 
-* {   
+* {   padding: 0;
     	box-sizing: border-box;
       font-family: "Lexend Deca", sans-serif;
        scroll-behavior: smooth;
@@ -251,6 +251,7 @@ font-family: 'Open Sans', sans-serif;
     -webkit-perspective: inherit;
             perspective: inherit;
     z-index: 2;
+    font-size: 1rem;
 }
 
 .project-container .back{
@@ -282,9 +283,10 @@ font-family: 'Open Sans', sans-serif;
 }
 
 .front .inner p{
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-bottom: 2rem;
   position: relative;
+
 }
 
 .front .inner p:after{
@@ -334,8 +336,6 @@ font-family: 'Open Sans', sans-serif;
 	margin: 40px;
 
 }
-
-
 
 
 #contact-section {
@@ -415,3 +415,4 @@ body {
 		background-size: cover	;
 		background-repeat: no-repeat;
 }
+
